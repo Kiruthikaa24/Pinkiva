@@ -4,29 +4,13 @@ A simple React + MongoDB shopping web application with authentication, product b
 
 🚀 Features
 
-Browse Products – View categories like appliances (hair dryer, straightener, curler, etc.) with images, prices, and quantity selection
-
-Appliances
-
-.
+Browse Products – View categories like appliances (hair dryer, straightener, curler, etc.) with images, prices, and quantity selections
 
 Add to Cart – Add products with chosen quantities to the cart, persisted via localStorage
 
-Cart
-
-.
-
 Cart Management – Update item quantities, remove items, and see total cost dynamically
 
-Cart
-
-.
-
 Forgot Password – Validate email/mobile and send reset link (frontend simulation)
-
-ForgotPassword
-
-.
 
 MongoDB Integration – Backend (not shown here) uses MongoDB for storing users, orders, and products.
 
