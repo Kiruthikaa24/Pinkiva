@@ -1,25 +1,30 @@
-Pinkiva Shopping App
+# Pinkiva - Cosmetics E-Commerce Website 💄
 
-A simple React + MongoDB shopping web application with authentication, product browsing, cart management, and password reset features.
+A full-stack cosmetics e-commerce web application built with **React.js**, **Node.js**, **Express.js**, and **MongoDB Atlas**.  
+This project allows users to sign up, log in, and shop for cosmetics online.
 
-🚀 Features
+---
 
-Browse Products – View categories like appliances (hair dryer, straightener, curler, etc.) with images, prices, and quantity selections
+## 🚀 Features
+- User authentication (Signup & Login)
+- Product listing & details
+- Shopping cart functionality
+- Secure backend with Express & MongoDB
+- Responsive UI built with React
 
-Add to Cart – Add products with chosen quantities to the cart, persisted via localStorage
+---
 
-Cart Management – Update item quantities, remove items, and see total cost dynamically
+## 🛠 Tech Stack
+**Frontend**
+- React.js
+- Axios
+- Bootstrap / CSS
 
-Forgot Password – Validate email/mobile and send reset link (frontend simulation)
+**Backend**
+- Node.js
+- Express.js
+- MongoDB Atlas (Mongoose ODM)
 
-MongoDB Integration – Backend (not shown here) uses MongoDB for storing users, orders, and products.
+---
 
-🛠️ Tech Stack
 
-Frontend: React.js, JSX, CSS
-
-Backend: Node.js, Express.js
-
-Database: MongoDB
-
-Storage: localStorage (for cart persistence)
