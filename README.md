@@ -17,13 +17,12 @@ This project allows users to sign up, log in, and shop for cosmetics online.
 ## 🛠 Tech Stack
 **Frontend**
 - React.js
-- Axios
-- Bootstrap / CSS
+- Bootstrap
 
 **Backend**
 - Node.js
 - Express.js
-- MongoDB Atlas (Mongoose ODM)
+- MongoDB Atlas 
 
 ---
 
