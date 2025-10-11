@@ -19,8 +19,11 @@ mongoose.connect(uri, {
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 30000
 })
-.then(() => console.log('🚀 MongoDB Connected'))
-.catch(err => console.error('❌ Connection error:', err));
+.then(() => console.log('🚀 MongoDB Connected Successfully'))
+.catch(err => {
+  console.error('❌ MongoDB Connection Error:', err.message);
+});
+
 
 // Import User model
 const User = require('./models/User');
