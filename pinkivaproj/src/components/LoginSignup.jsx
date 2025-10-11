@@ -24,8 +24,8 @@ function LoginSignup() {
 
     try {
       const url = isLogin
-        ? "http://localhost:5000/api/login"
-        : "http://localhost:5000/api/signup";
+        ? "https://pinkiva-backend.onrender.com/api/login"
+        : "https://pinkiva-backend.onrender.com/api/signup";
 
       const res = await fetch(url, {
         method: "POST",

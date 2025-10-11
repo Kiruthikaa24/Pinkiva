@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/test")
+    fetch("https://pinkiva-backend.onrender.com/api/test")
       .then(res => res.json())
       .then(data => setMessage(data.message))
       .catch(err => console.error(err));
