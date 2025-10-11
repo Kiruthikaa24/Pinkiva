@@ -4,7 +4,7 @@ const cors = require('cors');
 const path = require('path'); // ✅ add this at the top
 
 // MongoDB connection
-const uri = "mongodb+srv://kiruthika:kitty514@cluster0.4oqqr1c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://kiruthika:kitty514@cluster0.4oqqr1c.mongodb.net/pikivadb?retryWrites=true&w=majority&appName=Cluster0";
 
 const app = express();
 app.use(cors({
