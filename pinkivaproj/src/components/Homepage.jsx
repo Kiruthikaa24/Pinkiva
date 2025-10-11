@@ -99,7 +99,10 @@ function Homepage() {
           className="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
           style={{ zIndex: 0 }}
         >
-          <source src={video} type="video/mp4" />
+          <source
+      src="https://cdn.pixabay.com/video/2025/04/06/270065_tiny.mp4"
+      type="video/mp4"
+    />
           Your browser does not support the video tag.
         </video>
 
