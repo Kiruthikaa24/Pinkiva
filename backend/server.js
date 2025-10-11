@@ -7,7 +7,11 @@ const path = require('path'); // ✅ add this at the top
 const uri = "mongodb+srv://kiruthika:kitty514@cluster0.4oqqr1c.mongodb.net/pikivadb?retryWrites=true&w=majority";
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://pinkivafrontend.vercel.app', // frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true // if you use cookies
+}));
 app.use(express.json());
 
 mongoose.connect(uri, {
