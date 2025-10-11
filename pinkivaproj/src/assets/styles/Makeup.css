@@ -1,0 +1,36 @@
+.makeup-container {
+    padding: 20px;
+  }
+  
+  .makeup-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+  }
+  
+  .makeup-card {
+    text-align: center;
+    border: 1px solid #ffb6c1;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    background: #fff0f5;
+    transition: 0.3s;
+  }
+  
+  .makeup-card:hover {
+    background-color: #ffdde6;
+    transform: scale(1.05);
+  }
+  
+  .makeup-card img {
+    width: 80%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  
