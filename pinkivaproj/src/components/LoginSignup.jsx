@@ -24,8 +24,8 @@ function LoginSignup() {
 
     try {
       const url = isLogin
-        ? "https://pinkiva-backend.onrender.com/api/login"
-        : "https://pinkiva-backend.onrender.com/api/signup";
+        ? "https://pinkivabackend.vercel.app/api/login"
+        : "https://pinkivabackend.vercel.app/api/signup";
 
       const res = await fetch(url, {
         method: "POST",
