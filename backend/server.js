@@ -1,10 +1,11 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const path = require('path'); // ✅ add this at the top
+const path = require('path'); 
+require('dotenv').config();
 
 // MongoDB connection
-const uri = "mongodb+srv://kiruthika:Kitty514@cluster0.4oqqr1c.mongodb.net/pikivadb?retryWrites=true&w=majority&appName=Cluster0";
+const uri = process.env.MONGO_URI;
 
 const app = express();
 app.use(cors({
