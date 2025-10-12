@@ -66,12 +66,6 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
-// ---------- SERVE REACT FRONTEND ----------
-app.use(express.static(path.join(__dirname, 'build')));
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
 
 // ---------- START SERVER ----------
 module.exports = app;
