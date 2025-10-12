@@ -7,11 +7,12 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://pinkivabackend.vercel.app/api/test")
-      .then(res => res.json())
-      .then(data => setMessage(data.message))
-      .catch(err => console.error(err));
-  }, []);
+  fetch("https://pinkivabackend.vercel.app/api/test")
+    .then(res => res.json())
+    .then(data => setMessage(data.message))
+    .catch(err => console.error(err));
+}, []);
+
 
   return (
     <div className="App">
