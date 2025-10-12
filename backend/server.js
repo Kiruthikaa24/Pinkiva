@@ -57,6 +57,7 @@ app.post('/api/login', async (req, res) => {
 
 // ---------- EXPORT APP FOR VERCEL ----------
 module.exports = app;
+module.exports.handler = serverless(app);
 
 
 
