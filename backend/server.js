@@ -15,11 +15,10 @@ app.use(cors({
 }));
 app.use(express.json());
 
-mongoose.connect(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  serverSelectionTimeoutMS: 30000
-})
+mongoose.connect(uri)
+  .then(() => console.log('🚀 MongoDB Connected Successfully'))
+  .catch(err => console.error('❌ MongoDB Connection Error:', err.message));
+
 .then(() => console.log('🚀 MongoDB Connected Successfully'))
 .catch(err => {
   console.error('❌ MongoDB Connection Error:', err.message);
