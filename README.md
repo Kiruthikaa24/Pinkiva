@@ -34,8 +34,11 @@ To build a complete, cloud-hosted cosmetics e-commerce platform where users can:
 
 ## 🛠️ Tech Stack
 Frontend-  React.js, HTML5, CSS3, Bootstrap 
+
 Backend- Node.js, Express.js 
+
 Database- MongoDB Atlas 
+
 Deployment- Vercel 
 
 
